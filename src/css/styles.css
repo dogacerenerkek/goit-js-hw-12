@@ -40,3 +40,21 @@ form {
   justify-content: space-around;
   font-size: 12px;
 }
+.hidden {
+  display: none;
+}
+
+#load-more {
+  
+  margin: 20px auto;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: white;
+  cursor: pointer;
+}
+
+#load-more:hover {
+  background-color: #6c8cff;
+}
