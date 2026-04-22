@@ -1,0 +1,42 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+form {
+  margin: 0 auto;
+  width: 300px;
+}
+.hidden {
+  display: none;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.gallery-item {
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
